@@ -26,6 +26,7 @@ from scvi.dataset.synthetic import (
     SyntheticDatasetCorr,
     ZISyntheticDatasetCorr,
 )
+from scvi.dataset.tree import TreeDataset
 
 
 __all__ = [

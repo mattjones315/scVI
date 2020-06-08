@@ -8,8 +8,9 @@ from .annotation import (
     ClassifierTrainer,
 )
 from .jvae_trainer import JVAETrainer
-from .total_inference import TotalPosterior, TotalTrainer
 from .posterior_utils import load_posterior
+from .total_inference import TotalPosterior, TotalTrainer
+from .tree_inference import TreePosterior, TreeTrainer
 
 __all__ = [
     "Trainer",
@@ -24,4 +25,6 @@ __all__ = [
     "JVAETrainer",
     "TotalPosterior",
     "TotalTrainer",
+    "TreePosterior",
+    "TreeTrainer"
 ]
